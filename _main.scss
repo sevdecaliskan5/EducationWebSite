@@ -1,0 +1,61 @@
+@import "./variables";
+@import "./mixin";
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./imgs/backg.png);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+  .home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h5 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      color: $main-color;
+    }
+
+    h1 {
+      font-size: 56px;
+      font-family: "Playfair Display", serif;
+      color: $text-color;
+      font-weight: 700;
+      line-height: 56px;
+      margin-bottom: 20px;
+      @include tablet() {
+        font-size: 3rem;
+        line-height: 80px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      line-height: 22px;
+      margin-bottom: 35px;
+      color: $gray;
+    }
+    .btn {
+      @include tablet() {
+        padding: 10px 15px;
+      }
+    }
+  }
+}

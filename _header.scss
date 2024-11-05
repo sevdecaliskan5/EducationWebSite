@@ -1,0 +1,83 @@
+@import "./variables";
+@import "./global";
+@import "./mixin";
+
+header {
+  @include tablet() {
+    justify-content: center;
+  }
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 12px 24px;
+  z-index: 1000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  @extend .flex;
+  justify-content: space-between;
+
+  .logo {
+    font-size: 32px;
+    font-family: "Cabin", sans-serif;
+    color: $text-color;
+    font-weight: lighter;
+
+    span {
+      color: #ffc751;
+      font-weight: 400;
+      font-size: 46px;
+      font-family: "Allura", cursive;
+      letter-spacing: 3px;
+    }
+  }
+
+  .navbar {
+    @extend .flex;
+
+    li {
+      @include laptop() {
+        display: none;
+      }
+      a {
+        font-family: "Cabin", sans-serif;
+        color: $text-color;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 150px;
+        margin: 0 12px;
+        text-transform: uppercase;
+        cursor: pointer;
+        @extend .transition;
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+
+  .header-right {
+    @extend .flex;
+    a {
+      @include tablet() {
+        display: none;
+      }
+      font-family: "Cabin", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 150px;
+      color: $text-color;
+      margin-right: 18px;
+      margin-left: 5px;
+      @extend .transition;
+      &:hover {
+        color: $main-color;
+        transform: translateY(-3px);
+      }
+    }
+    a:nth-child(1) {
+      margin-right: 18px;
+    }
+  }
+}
