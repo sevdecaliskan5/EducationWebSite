@@ -15,11 +15,11 @@ This is the official website for Udemig Education, an online platform offering s
 
 # Features
 
-**Responsive Design:** The site adjusts seamlessly to various screen sizes, from mobile to desktop.
+Responsive Design: The site adjusts seamlessly to various screen sizes, from mobile to desktop.
 
-**Navigation Bar:** A fixed navigation bar that allows users to easily navigate through different sections of the website, including Home, About Us, Courses, Services, Blog, and Contact.
+Navigation Bar: A fixed navigation bar that allows users to easily navigate through different sections of the website, including Home, About Us, Courses, Services, Blog, and Contact.
 
-**Interactive Courses Section:** Each course is displayed in a card format, showcasing important details like course duration, price, and a brief description. The courses offered include:
+Interactive Courses Section: Each course is displayed in a card format, showcasing important details like course duration, price, and a brief description. The courses offered include:
 
 React Frontend. 
 NodeJS Backend. 
@@ -28,24 +28,19 @@ Web Development for Children.
 English for Programmers. 
 Package Education (Programming).
 
-**Contact Form:** A user-friendly form to allow prospective students to inquire or contact the academy.
+Contact Form: A user-friendly form to allow prospective students to inquire or contact the academy.
 
-**Footer:** Contains additional links like terms of service, privacy policy, contact information, and course details.
+Footer: Contains additional links like terms of service, privacy policy, contact information, and course details.
 
 # Features in Detail
 
-**Home Section:**
-A welcoming text and call to action for visitors to explore more.
-Eye-catching visuals to grab the attention of users.
+Home Section: A welcoming text and call to action for visitors to explore more. Eye-catching visuals to grab the attention of users.
 
-**About Us Section:**
-Information about Udemig's approach to education, highlighting key features like expert instructors, self-development programs, and remote learning options.
+About Us Section: Information about Udemig's approach to education, highlighting key features like expert instructors, self-development programs, and remote learning options.
 
-**Courses Section:**
-Detailed course offerings, including frontend and backend development, mobile app development, and courses designed for children.
+Courses Section: Detailed course offerings, including frontend and backend development, mobile app development, and courses designed for children.
 
-**Contact Us Section:**
-A simple form where visitors can submit their name, surname, and message.
+Contact Us Section: A simple form where visitors can submit their name, surname, and message.
 
 # Live Demo / Preview 
 
