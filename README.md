@@ -21,12 +21,12 @@ This is the official website for Udemig Education, an online platform offering s
 
 **Interactive Courses Section:** Each course is displayed in a card format, showcasing important details like course duration, price, and a brief description. The courses offered include:
 
-React Frontend
-NodeJS Backend
-React Native Mobile
-Web Development for Children
-English for Programmers
-Package Education (Programming)
+React Frontend. 
+NodeJS Backend. 
+React Native Mobile. 
+Web Development for Children. 
+English for Programmers. 
+Package Education (Programming).
 
 **Contact Form:** A user-friendly form to allow prospective students to inquire or contact the academy.
 
