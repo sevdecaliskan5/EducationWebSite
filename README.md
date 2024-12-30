@@ -43,9 +43,4 @@ Package Education (Programming).
 
 **Contact Us Section:** A simple form where visitors can submit their name, surname, and message.
 
-# Live Demo / Preview 
-
-To get a better understanding of how the website works, check out the screen recording below. It showcases the responsive design, smooth animations, and interactive features of the page in action.
-Watch the demo to see the project's features in real-time!
-
 ![UdemigEducation-GoogleChrome2024-11-0511-08-47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1a54784e-a925-4d7c-a420-c763c1c51740)
